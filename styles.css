@@ -1,12 +1,19 @@
 #container {
   display: block;
   margin: auto;
-  margin-top: 100px;
-  max-width: 600px;
+  margin-top: 40px;
+  max-width: 400px;
   padding: 50px;
   border-radius: 10px;
   border: none;
-  background: whitesmoke;
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
   box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.4);
 }
 body {
@@ -24,6 +31,11 @@ select {
   font-size: 16px;
   border-radius: 4px;
   padding: 7px;
+  background-color: transparent;
+}
+h2 {
+  font-size: 23px;
+  font-family: sans-serif;
 }
 footer {
   padding-top: 20px;
@@ -44,16 +56,17 @@ footer {
   margin-top: 15px;
 }
 .time strong {
-  font-size: 14px;
+  font-size: 12px;
   vertical-align: middle;
 }
 .date {
   color: rgba(0, 0, 0, 0.7);
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  font-family: sans-serif;
 }
 a {
-  text-decoration: none;
   color: blueviolet;
   font-weight: bold;
   font-family: sans-serif;
+  font-size: 13px;
 }
