@@ -11,33 +11,37 @@
   <body>
     <div id="container">
       <header>World Clock</header>
-      <select id="">
-        <option value="" id="">Please choose a city...</option>
-        <option value="" id="">Greece</option>
-        <option value="" id="">Johannesburg</option>
-        <option value="" id="">Mutare</option>
-        <option value="" id="">Paris</option>
+      <select id="city">
+        <option value="" updateTime(); setInterval(updateTime, 100);>
+          Please choose a city...
+        </option>
+        <option value="Asia/Tokyo">Tokyo</option>
+        <option value="Africa/Johannesburg">Johannesburg</option>
+        <option value="Africa/Harare">Harare</option>
+        <option value="France/Paris">Paris</option>
       </select>
-      <div class="city" id="cape-town">
-        <div>
-          <h2>Cape Town</h2>
-          <div class="date">23 September 2024</div>
+      <div id="cities">
+        <div class="city" id="cape-town">
+          <div>
+            <h2>Cape Town</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><strong></strong></div>
         </div>
-        <div class="time">12:33 <small>AM</small></div>
-      </div>
-      <div class="city" id="sydney">
-        <div>
-          <h2>Sydney</h2>
-          <div class="date">23 September 2024</div>
+        <div class="city" id="sydney">
+          <div>
+            <h2>Sydney</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><strong></strong></div>
         </div>
-        <div class="time">12:33 <small>AM</small></div>
-      </div>
-      <div class="city" id="paris">
-        <div>
-          <h2>Paris</h2>
-          <div class="date">23 September 2024</div>
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><strong></strong></div>
         </div>
-        <div class="time">12:33 <strong>AM</strong></div>
       </div>
     </div>
     <footer>
